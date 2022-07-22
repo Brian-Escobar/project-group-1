@@ -172,11 +172,19 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Monthly Calendar" id="ntj-gU-PmD">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="eyv-j6-fJK">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="kqC-GW-BCQ">
+                        <barButtonItem key="rightBarButtonItem" style="done" id="eyv-j6-fJK">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="kqC-GW-BCQ">
                                 <rect key="frame" x="302" y="7" width="92" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Weekly"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Weekly">
+                                            <attributes>
+                                                <font key="NSFont" metaFont="system" size="15"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
                                 <connections>
                                     <segue destination="ATe-xI-llM" kind="show" id="TwW-xN-WVS"/>
                                 </connections>
@@ -371,7 +379,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Weekly Calendar" id="TL4-y0-sT6">
-                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="x4F-Sp-ul6">
+                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="add" id="x4F-Sp-ul6">
                             <connections>
                                 <segue destination="1w4-iF-aWX" kind="show" id="6vH-R7-7ir"/>
                             </connections>
@@ -419,11 +427,19 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Event Edit" id="Mdo-PN-W0g">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="cQK-TI-nkk">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="iCv-eH-cqY">
+                        <barButtonItem key="rightBarButtonItem" style="done" id="cQK-TI-nkk">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="iCv-eH-cqY">
                                 <rect key="frame" x="302" y="7" width="92" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Save"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Save">
+                                            <attributes>
+                                                <font key="NSFont" metaFont="system" size="15"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
                                 <connections>
                                     <action selector="saveAction:" destination="1w4-iF-aWX" eventType="touchUpInside" id="mTB-LR-7Ye"/>
                                 </connections>

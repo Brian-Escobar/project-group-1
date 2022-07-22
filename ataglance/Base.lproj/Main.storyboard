@@ -39,7 +39,6 @@
                     </tabBar>
                     <connections>
                         <segue destination="zbQ-7Q-ciQ" kind="relationship" relationship="viewControllers" id="sgy-eS-Swa"/>
-                        <segue destination="LeM-pn-lTO" kind="relationship" relationship="viewControllers" id="SNo-hc-V1C"/>
                         <segue destination="r08-hP-bwB" kind="relationship" relationship="viewControllers" id="HZV-Mo-WY0"/>
                         <segue destination="JjP-q9-6TS" kind="relationship" relationship="viewControllers" id="9kp-kt-o5K"/>
                         <segue destination="sbM-rD-UdD" kind="relationship" relationship="viewControllers" id="lm2-Rq-Vp7"/>
@@ -70,17 +69,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hV4-zB-aF7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="183" y="483"/>
-        </scene>
-        <!--notification storyboard-->
-        <scene sceneID="FtY-v4-FWv">
-            <objects>
-                <viewControllerPlaceholder storyboardName="notification storyboard" id="LeM-pn-lTO" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="lor-I3-NFf"/>
-                    <navigationItem key="navigationItem" id="Uch-wt-Lh2"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="2Ae-R8-ljn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="875" y="483"/>
         </scene>
         <!--ToDoListStoryboard-->
         <scene sceneID="8Kv-cq-RQ1">
